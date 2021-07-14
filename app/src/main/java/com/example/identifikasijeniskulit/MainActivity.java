@@ -12,7 +12,7 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class  MainActivity extends AppCompatActivity {
     Button btnProses;
     TextView tvOutput;
     CheckBox chkGejala1, chkGejala2, chkGejala3, chkGejala4, chkGejala5, chkGejala6;
@@ -170,7 +170,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                String NamaPenyakit = "Jenis Kulit Anda :";
+                String JenisKulit = "Jenis Kulit Anda :";
 
                 // AND && dan OR ||
                 if (chkGejala1.isChecked() && chkGejala2.isChecked() && chkGejala3.isChecked() && chkGejala4.isChecked()){
@@ -196,9 +196,9 @@ public class MainActivity extends AppCompatActivity {
                     double Combine_CFold_CF3  = Combine_CF1_CF2 + hasilHitunganGejala3 * (1 - Combine_CF1_CF2);
                     double Combine_CFold_CF4  = Combine_CFold_CF3 + hasilHitunganGejala4 * (1 - Combine_CFold_CF3);
 
-                    String hasilHitungGejalaPenyakitA = String.valueOf((Combine_CFold_CF4 * 100));
+                    String hasilHitungGejalaA = String.valueOf((Combine_CFold_CF4 * 100));
 
-                    NamaPenyakit += "\nBruCellosis"+"\n"+hasilHitungGejalaPenyakitA+" %";
+                    JenisKulit += "\nKulit Normal"+"\n"+hasilHitungGejalaA+" %";
 
 
 
@@ -224,9 +224,9 @@ public class MainActivity extends AppCompatActivity {
                     double Combine_CFold_CF3  = Combine_CF1_CF2_1 + hasilHitunganGejala6 * (1 - Combine_CF1_CF2_1);
 
 
-                    String hasilHitungGejalaPenyakitB = String.valueOf((Combine_CFold_CF3 * 100));
+                    String hasilHitungGejalaB = String.valueOf((Combine_CFold_CF3 * 100));
 
-                    NamaPenyakit += "\nInFection Bovine"+"\n"+hasilHitungGejalaPenyakitB+" %";
+                    JenisKulit += "\nKulit Sensitif"+"\n"+hasilHitungGejalaB+" %";
 
                 }
 
@@ -246,14 +246,14 @@ public class MainActivity extends AppCompatActivity {
                     double Combine_CF1_CF2_2  = hasilHitunganGejala1 + hasilHitunganGejala3 * (1 - hasilHitunganGejala1);
 
 
-                    String hasilHitungGejalaPenyakitC = String.valueOf((Combine_CF1_CF2_2 * 100));
+                    String hasilHitungGejalaC = String.valueOf((Combine_CF1_CF2_2 * 100));
 
-                    NamaPenyakit += "\nInfluenza"+"\n"+hasilHitungGejalaPenyakitC+" %";
+                    JenisKulit+= "\nInfluenza"+"\n"+hasilHitungGejalaC+" %";
 
                 }
 
                 // Output Semua hasil
-                tvOutput.setText(""+NamaPenyakit);
+                tvOutput.setText(""+JenisKulit);
             }
         });
     }

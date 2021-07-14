@@ -1,9 +1,0 @@
-TUGAS5 PK (LAPORAN TAMPILAN PROGRAM)
------------------------------------------
-- silahkan screen shoot beberapa tampilan program yang anda buat beserta penjelasanya (hanya butuh tampilan program, meskipun program belum berjalan)
-- lampirkan beberapa source code yang penting
-- simpan dalam sebuah file bernama  "tugas5PK_nim.pdf"
-- silahkan kirim ke :
-https://docs.google.com/forms/d/e/1FAIpQLSfxDbhV0LCiTcDKpv1D-KNIHvjlaabOI_M73RteIEkRRLzfQw/viewform?usp=sf_link
-- paling lambat 31 Mei 2021 pukul 23:55 WIB
-

@@ -15,8 +15,16 @@ import android.widget.TextView;
 public class  MainActivity extends AppCompatActivity {
     Button btnProses;
     TextView tvOutput;
-    CheckBox chkGejala1, chkGejala2, chkGejala3, chkGejala4, chkGejala5, chkGejala6, chkGejala7, chkGejala8, chkGejala9, chkGejala10, chkGejala11, chkGejala12, chkGejala13, chkGejala14;
-    AutoCompleteTextView txtNilaiGejala1, txtNilaiGejala2, txtNilaiGejala3, txtNilaiGejala4, txtNilaiGejala5, txtNilaiGejala6, txtNilaiGejala7, txtNilaiGejala8, txtNilaiGejala9, txtNilaiGejala10, txtNilaiGejala11, txtNilaiGejala12, txtNilaiGejala13, txtNilaiGejala14;
+    CheckBox chkGejala1, chkGejala2, chkGejala3,
+            chkGejala4, chkGejala5, chkGejala6,
+            chkGejala7, chkGejala8, chkGejala9,
+            chkGejala10, chkGejala11, chkGejala12,
+            chkGejala13, chkGejala14;
+    AutoCompleteTextView txtNilaiGejala1, txtNilaiGejala2,
+            txtNilaiGejala3, txtNilaiGejala4, txtNilaiGejala5,
+            txtNilaiGejala6, txtNilaiGejala7, txtNilaiGejala8,
+            txtNilaiGejala9, txtNilaiGejala10, txtNilaiGejala11,
+            txtNilaiGejala12, txtNilaiGejala13, txtNilaiGejala14;
 
     String[] nilaiKeyakinanGejala1 = {"", "0", "0.2", "0.4", "0.6", "0.8", "1"};
     String[] nilaiKeyakinanGejala2 = {"", "0", "0.2", "0.4", "0.6", "0.8", "1"};

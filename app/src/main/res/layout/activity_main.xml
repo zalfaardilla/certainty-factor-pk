@@ -2,8 +2,10 @@
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     android:scrollbars="vertical"
     android:padding="10dp">
 
@@ -191,7 +193,7 @@
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#F08080"
+            android:background="@drawable/rounded_corners"
             android:text="DETEKSI SEKARANG"
             android:textColor="#FFFF"
             android:textAlignment="center"
@@ -206,5 +208,6 @@
             android:textAlignment="center"
             android:textSize="30sp"
             android:textStyle="bold" />
+
     </LinearLayout>
 </ScrollView>

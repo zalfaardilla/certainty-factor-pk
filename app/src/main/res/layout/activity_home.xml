@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".home">
 
     <LinearLayout
@@ -21,28 +22,29 @@
 
         <Button
             android:id="@+id/button"
-            android:layout_marginTop="100dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#F08080"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/rounded_corners"
             android:text="DETEKSI SEKARANG"
-            android:textColor="#FFFF"
             android:textAlignment="center"
+            android:textColor="#FFFF"
             android:textSize="24sp"
             android:textStyle="bold" />
+
         <Button
             android:id="@+id/button2"
-            android:layout_marginTop="50dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#F08080"
-            android:text="Tentang APlikasi"
-            android:textColor="#FFFF"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/rounded_corners"
+            android:text="Tentang Aplikasi"
             android:textAlignment="center"
+            android:textColor="#FFFF"
             android:textSize="24sp"
             android:textStyle="bold" />
     </LinearLayout>

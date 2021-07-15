@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".tentangAplikasi">
 
     <LinearLayout
@@ -22,7 +23,6 @@
             android:layout_marginRight="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
             android:text="Aplikasi ini digunakan untuk mendeteksi jenis kulit\n\n\n oleh : Zalfa Natania Ardilla\n NIM : 201810370311241"
             android:textColor="#000000"
             android:textAlignment="center"
